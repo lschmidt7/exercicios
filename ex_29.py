@@ -23,7 +23,7 @@ moedas_05 -= moedas_05 % 1
 reais -= moedas_05 * 0.05
 
 moedas_01 = reais / 0.01
-moedas_01 = round(moedas_01, 2)
+moedas_01 = round(moedas_01, 3)
 moedas_01 -= moedas_01 % 1
 reais -= moedas_01 * 0.01
 
