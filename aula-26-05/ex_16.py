@@ -1,6 +1,6 @@
-lado1 = float(input("Informe o lado 1 do tringulo"))
-lado2 = float(input("Informe o lado 2 do tringulo"))
-lado3 = float(input("Informe o lado 3 do tringulo"))
+lado1 = float(input("Informe o lado 1 do tringulo: "))
+lado2 = float(input("Informe o lado 2 do tringulo: "))
+lado3 = float(input("Informe o lado 3 do tringulo: "))
 
 if lado1 == lado2 and lado2 == lado3:
     print("Equilatero")

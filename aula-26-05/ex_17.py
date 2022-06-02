@@ -1,4 +1,4 @@
-op = int(input("1 - Fahrenheit para Celsius\n2 - Celsius para Fahrenheit"))
+op = int(input("1 - Fahrenheit para Celsius\n2 - Celsius para Fahrenheit\n"))
 
 if op == 1:
     temp_fahrenheit = int(input("Informe a temperatura em Fahrenheit: "))
