@@ -1,16 +1,15 @@
 # Janeiro   31 dias
 # Fevereiro 28 dias (29 dias nos anos bissextos)
-# Março	  31 dias
-# Abril	  30 dias
-# Maio	  31 dias
-# Junho	  30 dias
-# Julho	  31 dias
-# Agosto	  31 dias
+# Março	    31 dias
+# Abril	    30 dias
+# Maio	    31 dias
+# Junho	    30 dias
+# Julho	    31 dias
+# Agosto    31 dias
 # Setembro  30 dias
-# Outubro	  31 dias
+# Outubro	31 dias
 # Novembro  30 dias
 # Dezembro  31 dias
-
 
 dia = int(input("Informe o dia do mês: "))
 mes = int(input("Informe o mês do ano: "))
@@ -46,7 +45,7 @@ else: # fevereiro
             if novo_mes > 12:
                 novo_mes = 1
                 novo_ano = ano + 1
-    else:
+    else: # 28 dias
         if novo_dia > 28:
             novo_dia = 1
             novo_mes = mes + 1
