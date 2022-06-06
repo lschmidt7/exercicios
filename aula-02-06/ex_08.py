@@ -1,10 +1,3 @@
-# Escreva um programa que leia a idade e salário de 10 pessoas. Informe em seguida:
-# Qual é a média de idade entre as pessoas?
-# Quantas pessoas há por faixa etária, considerando: 
-# jovens < 18
-# 18 <= adultos < 60
-# idosos >= 60
-# Em seguida, mostre qual é a faixa etária que acumula o maior salário.
 
 media_idade = 0
 
